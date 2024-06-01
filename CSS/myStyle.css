@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(252, 252, 252);
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -74,3 +78,30 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+
+#carouselExample{
+    width: 700px;
+    height: 600px;
+    border-style: solid;
+    box-shadow: 3px 5px 20px 5px #5a23c8;
+
+  }
+
+#carouselExample img{
+    background-size: cover;
+  }
+
+.container p{
+    color: black;
+  }
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+main{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
